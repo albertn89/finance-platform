@@ -15,6 +15,13 @@
       "when": 1724800054099,
       "tag": "0001_purple_baron_zemo",
       "breakpoints": true
+    },
+    {
+      "idx": 2,
+      "version": "5",
+      "when": 1725602353362,
+      "tag": "0002_colorful_mad_thinker",
+      "breakpoints": true
     }
   ]
 }

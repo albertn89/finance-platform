@@ -4,10 +4,8 @@ import { toast } from "sonner";
 
 import { client } from "@/lib/hono";
 
-// prettier-ignore
-type ResponseType = InferResponseType<typeof client.api.accounts["bulk-delete"]["$post"]>;
-// prettier-ignore
-type RequestType = InferRequestType<typeof client.api.accounts["bulk-delete"]["$post"]>["json"];
+type ResponseType = InferResponseType<(typeof client.api.accounts)["bulk-delete"]["$post"]>;
+type RequestType = InferRequestType<(typeof client.api.accounts)["bulk-delete"]["$post"]>["json"];
 
 export const useBulkDeleteAccounts = () => {
 	const queryClient = useQueryClient();
