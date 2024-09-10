@@ -37,7 +37,7 @@ export const NewAccountSheet = () => {
 			<SheetContent className="space-y-4">
 				<SheetHeader>
 					<SheetTitle>New Account</SheetTitle>
-					<SheetDescription>Create a new account to start tracking your finances.</SheetDescription>
+					<SheetDescription>Create a new account to track your finances.</SheetDescription>
 				</SheetHeader>
 				<AccountForm
 					onSubmit={onSubmit}
