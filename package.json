@@ -36,7 +36,7 @@
 		"drizzle-zod": "^0.5.1",
 		"hono": "^4.5.9",
 		"lucide-react": "^0.436.0",
-		"next": "14.2.6",
+		"next": "^14.2.9",
 		"next-themes": "^0.3.0",
 		"react": "^18",
 		"react-currency-input-field": "^3.8.0",
