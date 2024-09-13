@@ -11,7 +11,7 @@ import { useBulkDeleteTransactions } from "@/features/transactions/api/use-bulk-
 import { useGetTransactions } from "@/features/transactions/api/use-get-transactions";
 import { useNewTransaction } from "@/features/transactions/hooks/use-new-transaction";
 
-import { DataTable } from "@/components/DataTable";
+import { DataTable } from "@/components/data/DataTable";
 import { Button } from "@/components/ui/button";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { Skeleton } from "@/components/ui/skeleton";

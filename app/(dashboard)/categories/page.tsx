@@ -6,7 +6,7 @@ import { useBulkDeleteCategories } from "@/features/categories/api/use-bulk-dele
 import { useGetCategories } from "@/features/categories/api/use-get-categories";
 import { useNewCategory } from "@/features/categories/hooks/use-new-category";
 
-import { DataTable } from "@/components/DataTable";
+import { DataTable } from "@/components/data/DataTable";
 import { Button } from "@/components/ui/button";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { Skeleton } from "@/components/ui/skeleton";

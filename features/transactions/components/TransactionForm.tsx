@@ -3,9 +3,9 @@ import { Trash } from "lucide-react";
 import { useForm } from "react-hook-form";
 import { z } from "zod";
 
-import { AmountInput } from "@/components/AmountInput";
-import { DatePicker } from "@/components/DatePicker";
-import { Select } from "@/components/Select";
+import { AmountInput } from "@/components/data/AmountInput";
+import { DatePicker } from "@/components/data/DatePicker";
+import { Select } from "@/components/data/Select";
 
 import { Button } from "@/components/ui/button";
 import { Form, FormControl, FormField, FormItem, FormLabel } from "@/components/ui/form";
