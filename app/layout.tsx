@@ -23,7 +23,7 @@ export default function RootLayout({
 	return (
 		<ClerkProvider>
 			<html lang="en">
-				<body className={font.className}>
+				<body className={`${font.className} bg-gray-50`}>
 					<QueryProvider>
 						<SheetProvider />
 						<Toaster />

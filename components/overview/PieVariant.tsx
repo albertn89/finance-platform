@@ -1,6 +1,6 @@
 import { Cell, Legend, Pie, PieChart, ResponsiveContainer, Tooltip } from "recharts";
 
-import { formatPercentage } from "@/lib/utils";
+import { formatCurrency, formatPercentage } from "@/lib/utils";
 import { CategoryTooltip } from "./CategoryTooltip";
 
 const COLORS = ["#0062FF", "#12C6FF", "#FF647F", "#FF9354"];
@@ -32,7 +32,7 @@ export const PieVariant = ({ data }: Props) => {
 										/>
 										<div className="space-x-1">
 											<span className="text-sm text-muted-foreground">{entry.value}</span>
-											<span className="text-sm">{formatPercentage(entry.payload.value * 100)}</span>
+											<span className="text-sm">{formatCurrency(entry.payload.value)}</span>
 										</div>
 									</li>
 								))}
